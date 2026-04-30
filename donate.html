@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donate | Black Lives Matter Rhetoric</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header"><nav class="navbar"><a class="brand" href="index.html">BLM Rhetoric</a><button class="nav-toggle">&equiv;</button><div class="nav-links"><a href="index.html">Home</a><a href="about.html">About</a><a class="active" href="donate.html">Donate</a><a href="login.html">Login</a><a href="signup.html">Sign Up</a></div></nav></header>
+  <main>
+    <section class="form-page">
+      <div class="form-copy reveal"><p class="eyebrow">Demo Donation</p><h1>Support Public Learning</h1></div>
+      <form class="form-card reveal" id="donationForm">
+        <label for="donorName">Name</label><input id="donorName" name="donorName" type="text" required>
+        <label for="donorEmail">Email</label><input id="donorEmail" name="donorEmail" type="email" required>
+        <label for="donationAmount">Donation amount</label><input id="donationAmount" name="donationAmount" type="number" min="1" required>
+        <button class="button primary full" type="submit">Submit Donation</button>
+        <p class="form-message" id="donationMessage"></p>
+      </form>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
